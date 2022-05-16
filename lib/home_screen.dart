@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        elevation: 0,
+        elevation: 5,
         leading: IconButton(icon: SvgPicture.asset("assets/icon/menu.svg"),onPressed: () {},
         ),
       ),
